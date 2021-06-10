@@ -1,0 +1,588 @@
+body {
+  font-family: "Google Sans", sans-serif;
+  background: #111;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  overflow-x:hidden;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+li {
+  text-transform: uppercase;
+  -webkit-animation: fadeIn 0.5s linear;
+  animation: fadeIn 0.5s linear;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+li:nth-child(1) {
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+li:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+li:nth-child(3) {
+  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.75s;
+}
+
+li:nth-child(4) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+li:nth-child(5) {
+  -webkit-animation-delay: 1.25s;
+  animation-delay: 1.25s;
+}
+
+li:nth-child(6) {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+li:nth-child(7) {
+  -webkit-animation-delay: 1.75s;
+  animation-delay: 1.75s;
+}
+
+li:nth-child(8) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+li:nth-child(9) {
+  -webkit-animation-delay: 2.25s;
+  animation-delay: 2.25s;
+}
+
+li:nth-child(10) {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+li:nth-child(11) {
+  -webkit-animation-delay: 2.75s;
+  animation-delay: 2.75s;
+}
+
+li:nth-child(12) {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+li:nth-child(13) {
+  -webkit-animation-delay: 3.25s;
+  animation-delay: 3.25s;
+}
+
+li:nth-child(14) {
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
+li:nth-child(15) {
+  -webkit-animation-delay: 3.75s;
+  animation-delay: 3.75s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  75% {
+    opacity: 0.5;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: "BryantMedium";
+  src: url("https://resources.urionlinejudge.com.br/judge/fonts/BryantMedium.eot");
+  src: url("https://resources.urionlinejudge.com.br/judge/fonts/BryantMedium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/BryantMedium.woff2")
+      format("woff2"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/BryantMedium.woff")
+      format("woff"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/BryantMedium.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SketchRockwell";
+  src: url("https://resources.urionlinejudge.com.br/judge/fonts/SketchRockwell.eot");
+  src: url("https://resources.urionlinejudge.com.br/judge/fonts/SketchRockwell.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/SketchRockwell.woff2")
+      format("woff2"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/SketchRockwell.woff")
+      format("woff"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/SketchRockwell.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SketchRockwell";
+  src: url("https://resources.urionlinejudge.com.br/judge/fonts/sketchrockwell-uri.eot");
+  src: url("https://resources.urionlinejudge.com.br/judge/fonts/sketchrockwell-uri.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/sketchrockwell-uri.woff2")
+      format("woff2"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/sketchrockwell-uri.woff")
+      format("woff"),
+    url("https://resources.urionlinejudge.com.br/judge/fonts/sketchrockwell-uri.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tc,
+#tc {
+  /* font-family: 'Lato'; */
+  font-size: 20px;
+}
+#div {
+  font-size: 30px;
+}
+h4,
+h5 {
+  padding-bottom: 0;
+  margin: 0;
+}
+#update {
+  margin-top: 25px;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+  overflow-y:hidden;
+}
+
+.tab-top {
+  overflow: hidden;
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  z-index: 99;
+  font-size: 30px;
+  text-align: left;
+  border-bottom: 1px solid #222;
+}
+
+.tab button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 50px;
+  transition: 0.3s;
+  font-size: 14px;
+  background: none;
+  line-height: 1em;
+  padding-bottom: 1.5px;
+}
+
+.tab button:hover {
+  background-color: #111;
+}
+
+.tab button.active {
+  background-color: #eb3224;
+  color: #e7e7e7;
+  font-weight: bold;
+}
+
+.tab button.active .fa {
+ font-size: 30px;
+
+}
+.tabcontent {
+  display: none;
+  margin: 0;
+  border-top: none;
+  transition: 1s;
+  overflow-x:hidden;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.fa-angle-double-up {
+  font-size: 14px;
+}
+.up {
+  font-family: "Google Sans";
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+#ld {
+  position: fixed;
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+#list {
+  width: 100%;
+  margin: 0.2em 0;
+  padding: 0.5em 0.8em;
+  list-style: none;
+
+  cursor: pointer;
+  color: #333;
+  position: relative;
+  font-family: "Google Sans";
+}
+
+.search-box {
+  width: 100%;
+  padding: 5px;
+  font-size: 1em;
+  color: #fff;
+  font-family: "Google Sans";
+  margin-left: 10px;
+}
+
+#search {
+  border: none;
+  padding: 5px;
+  border-bottom: 2.5px solid #222;
+}
+#search:hover {
+  border: none;
+  padding: 5px;
+  border-bottom: 2.5px solid #555;
+
+}
+
+#search1 {
+  border: none;
+  padding: 5px;
+  border-bottom: 2.5px solid #222;
+}
+#search1:hover {
+  border: none;
+  padding: 5px;
+  border-bottom: 2.5px solid #555;
+
+}
+
+
+.input {
+  display: flex;
+  font-size: 20px;
+}
+.fa-search {
+  vertical-align: bottom;
+  padding-top: 10px;
+}
+.input input {
+  color: #fff;
+  background: #111;
+  
+}
+
+.scrollable {
+  width: auto;
+  height: 130rem;
+  overflow-y: scroll;
+}
+.scrollableTable {
+  width: auto;
+  height: 50rem;
+  overflow-y: scroll;
+}
+
+
+
+.lever {
+  background-color: #84c7c1;
+}
+.switch label input[type="checkbox"]:checked + .lever:after,
+.switch label input[type="checkbox"]:checked + .lever:before {
+  left: 18px;
+}
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: #26a69a;
+}
+.switch label .lever {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 36px;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 15px;
+  margin-right: 10px;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  vertical-align: middle;
+  margin: 0 16px;
+}
+.switch label .lever:after,
+.switch label .lever:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 0;
+  top: -3px;
+  -webkit-transition: left 0.3s ease, background 0.3s ease,
+    -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, -webkit-box-shadow 0.1s ease,
+    -webkit-transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease,
+    transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease,
+    transform 0.1s ease, -webkit-box-shadow 0.1s ease,
+    -webkit-transform 0.1s ease;
+}
+.switch label .lever:before {
+  background-color: rgba(38, 166, 154, 0.15);
+}
+.switch label .lever:after {
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.lever:after {
+  background-color: #2962ff !important;
+}
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: #448aff !important;
+}
+#selectedDistrictCount {
+  color: rgb(0, 122, 204);
+}
+.switch,
+.switch * {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.switch label {
+  cursor: pointer;
+  color: #000;
+  padding: 20px;
+  
+}
+.switch{
+  text-align: center;
+}
+.switch label input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: #84c7c1;
+}
+.switch label input[type="checkbox"]:checked + .lever:after,
+.switch label input[type="checkbox"]:checked + .lever:before {
+  left: 18px;
+}
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: #26a69a;
+}
+.switch label .lever {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 36px;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 15px;
+  margin-right: 10px;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  vertical-align: middle;
+  margin: 0 16px;
+}
+.switch label .lever:after,
+.switch label .lever:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 0;
+  top: -3px;
+  -webkit-transition: left 0.3s ease, background 0.3s ease,
+    -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, -webkit-box-shadow 0.1s ease,
+    -webkit-transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease,
+    transform 0.1s ease;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease,
+    transform 0.1s ease, -webkit-box-shadow 0.1s ease,
+    -webkit-transform 0.1s ease;
+}
+.switch label .lever:before {
+  background-color: rgba(38, 166, 154, 0.15);
+}
+.switch label .lever:after {
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: #2962ff !important;
+}
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: #448aff !important;
+}
+
+
+
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+.head-wrap{
+  position: fixed;
+  bottom: 56px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  font-family: Roboto, 'Kalpurush';
+
+}
+
+.head-head{
+  width: auto;
+  background: rgb(197, 46, 46);
+  width: 100px;
+  position: fixed;
+  z-index: 9999;
+  height: 27px;
+  text-align: center;
+  font-family: Google Sans;
+  box-shadow:  0px 0 6px rgba(0, 0, 0, 0.5);
+}
+
+#headline{
+box-shadow:  0px 0 6px rgba(0, 0, 0, 0.5);
+background: #222;
+}
+
+#headline .fa{
+color: red;
+margin-left: 4px;
+font-size: 13px;
+}
+
+#headline a{
+  color: #fff;
+  font-size: 18px;
+}
+
+.tablinks{
+color: #fff;
+}  
+
+.active{
+  background: crimson;
+}
